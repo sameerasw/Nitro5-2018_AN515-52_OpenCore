@@ -30,7 +30,7 @@ My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if yo
 - Trackpad
 - Trackpad gestures
 - m.2 and other SATA
-- Audio (Speakers, 3.5mm, Bluetooth Audio) + Mic
+- Audio (Speakers, Bluetooth Audio) + Mic
 - Camera
 - Battery capacity and indicator
 - Device standby (Sleep) + Lid detection
@@ -38,6 +38,7 @@ My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if yo
 ## What's broken?
 - Nvidia GTX1050 - Lack of driver support in mac
 - HDMI - Connected to the dGPU
+- 3.5mm port (Works but audio is distorted. Should be an easy fix but I'm noob.) * I use AudioRelay to get audio from my Android device when my buds run out of battery.
 
 ## Did not test
 - Airdrop
