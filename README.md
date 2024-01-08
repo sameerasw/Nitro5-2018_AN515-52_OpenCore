@@ -34,6 +34,7 @@ My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if yo
 - Camera
 - Battery capacity and indicator
 - Device standby (Sleep) + Lid detection
+- USB Tethering
 
 ## What's broken?
 - Nvidia GTX1050 - Lack of driver support in mac
