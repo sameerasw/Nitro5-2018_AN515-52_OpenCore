@@ -1,7 +1,8 @@
 # Nitro5-2018_AN515-52_OpenCore
 My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if you are re-using.
 
-![Screenshot 2024-01-05 at 5 06 06 PM](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/362817b9-5f3a-4823-b512-f5b1036600a4)
+![Screenshot 2024-01-11 at 8 06 39 PM](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/6cb7fccf-d9cf-4394-acc6-2e543470c288)
+
 
 ## Specs:
 | Component      | Description |
@@ -17,7 +18,7 @@ My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if yo
 | Trackpad | l2C HID Synaptics |
 | Wireless | Intel Wireless-AC AC9560 160MHz w/ Bluetooth |
 | Ethernet | Realtek |
-| OS | macOS Ventura 13.6.3 + Windows 11 23H2 |
+| OS | macOS Sonoma 14.2.1 + Windows 11 23H2 |
 
 ## What Works?
 - All USB Ports including Type-C
@@ -34,6 +35,7 @@ My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if yo
 - Camera
 - Battery capacity and indicator
 - Device standby (Sleep) + Lid detection
+- iMessage + Face time (w/Sonoma)
 - USB Tethering
 
 ## What's broken?
@@ -45,7 +47,6 @@ My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if yo
 - Airdrop
 - Screen Mirroring
 - SD card slot
-- iMessage + Face time (Don't need 'em)
 
 ## How to do it?
 I have no idea. Tried for weeks and almost gave up, but finally figured out that it was the NVRAM that I didn't reset was causing boot issues for the OpenCore installer. It was done thanks to the mentioned guides, repos and personal support. This is my first hack build.
