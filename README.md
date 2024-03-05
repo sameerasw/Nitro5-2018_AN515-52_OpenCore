@@ -1,5 +1,5 @@
 # Nitro5-2018_AN515-52_OpenCore
-My macOS Ventura OpenCore EFI files and some others. Change SMBIOS serials if you are re-using.
+My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you are re-using.
 
 ![Screenshot 2024-01-11 at 8 06 39 PM](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/6cb7fccf-d9cf-4394-acc6-2e543470c288)
 
