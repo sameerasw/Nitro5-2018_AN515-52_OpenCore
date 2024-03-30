@@ -18,6 +18,7 @@ My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you
 | Trackpad | l2C HID Synaptics |
 | Wireless | Intel Wireless-AC AC9560 160MHz w/ Bluetooth |
 | Ethernet | Realtek |
+| Audio | Realtek ALC225 (Layout 30) |
 | OS | macOS Sonoma 14.2.1 + Windows 11 23H2 |
 
 ## What Works?
