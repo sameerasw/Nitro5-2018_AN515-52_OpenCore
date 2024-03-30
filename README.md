@@ -31,21 +31,20 @@ My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you
 - Trackpad
 - Trackpad gestures
 - m.2 and other SATA
-- Audio (Speakers, Bluetooth Audio) + Mic
+- Audio (Speakers, Bluetooth Audio, 3.5mm port) + Mic
 - Camera
 - Battery capacity and indicator
 - Device standby (Sleep) + Lid detection
 - iMessage + Face time (w/Sonoma)
 - USB Tethering
+- Airdrop
+- Screen Mirroring
 
 ## What's broken?
 - Nvidia GTX1050 - Lack of driver support in mac
 - HDMI - Connected to the dGPU
-- 3.5mm port (Works but audio is distorted. Should be an easy fix but I'm noob.) * I use AudioRelay to get audio from my Android device when my buds run out of battery.
 
 ## Did not test
-- Airdrop
-- Screen Mirroring
 - SD card slot
 
 ## How to do it?
