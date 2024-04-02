@@ -1,7 +1,7 @@
 # Nitro5-2018_AN515-52_OpenCore
 My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you are re-using.
 
-![Screenshot 2024-01-11 at 8 06 39 PM](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/6cb7fccf-d9cf-4394-acc6-2e543470c288)
+![image](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/c68c9a17-360e-4220-8952-0997bcd89047)
 
 
 ## Specs:
@@ -20,6 +20,7 @@ My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you
 | Ethernet | Realtek |
 | Audio | Realtek ALC225 (Layout 30) |
 | OS | macOS Sonoma 14.2.1 + Windows 11 23H2 |
+| OpenCore | v0.9.9 |
 
 ## What Works?
 - All USB Ports including Type-C
@@ -49,7 +50,7 @@ My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you
 - SD card slot
 
 ## How to do it?
-I have no idea. Tried for weeks and almost gave up, but finally figured out that it was the NVRAM that I didn't reset was causing boot issues for the OpenCore installer. It was done thanks to the mentioned guides, repos and personal support. This is my first hack build.
+I have no idea. Tried for weeks and almost gave up, but finally figured out that it was the NVRAM that I didn't reset was causing boot issues for the OpenCore installer. It was done thanks to the mentioned guides, repos and personal support. This is my first hack build. Updated OC and all the kext files to their latest versions. Only problem is that my external audio sometimes add a hum sound when using 3.5mm port but since I use an USB audio adapter, it is ignored.
 
 ## Credits and ref
 - [Thread on tonymacx86.com](https://www.tonymacx86.com/threads/guide-oc-monterey-acer-nitro-5-an515-52-core-i7-8750h-samsung-1tb-960-evo-pcie-nvme.319629/)
