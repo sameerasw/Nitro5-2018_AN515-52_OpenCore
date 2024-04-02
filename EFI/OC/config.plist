@@ -620,7 +620,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>17</integer>
+				<integer>29</integer>
 				<key>model</key>
 				<string>Realtek High Definition Audio</string>
 			</dict>
@@ -1413,7 +1413,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1849,7 +1849,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=29 -wegnoegpu igfxonln=1 -no_compat_check brcmfx-country=#a darkwake=0 swd_panic=1 -noDC9 revpatch=sbvmm -igfxblt</string>
+				<string>keepsyms=1 debug=0x100 alcid=29 -wegnoegpu igfxonln=1 brcmfx-country=#a darkwake=1 swd_panic=1 -noDC9 revpatch=sbvmm -igfxblt -igfxbls igfxrpsc=1 gfxrst=1</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1976,7 +1976,7 @@
 			<key>AudioOutMask</key>
 			<integer>-1</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>DisconnectHda</key>
 			<false/>
 			<key>MaximumGain</key>
@@ -1986,7 +1986,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-128</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>Enabled</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
