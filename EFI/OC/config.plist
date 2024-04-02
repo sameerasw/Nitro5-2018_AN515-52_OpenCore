@@ -1908,7 +1908,7 @@
 			<key>SystemSerialNumber</key>
 			<string>0000000000</string>
 			<key>SystemUUID</key>
-			<string>0000000000000000</string>
+			<string>00000000-0000-0000-0000-000000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
