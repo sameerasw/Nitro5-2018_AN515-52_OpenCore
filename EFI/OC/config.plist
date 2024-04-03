@@ -8,14 +8,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-DDGPU.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-AWAC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -157,6 +149,14 @@
 				<true/>
 				<key>Path</key>
 				<string>backups/SSDT-XOSI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-dDGPU.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -1849,7 +1849,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=29 -wegnoegpu igfxonln=1 brcmfx-country=#a darkwake=1 swd_panic=1 -noDC9 revpatch=sbvmm -igfxblt -igfxbls igfxrpsc=1 gfxrst=1</string>
+				<string>keepsyms=1 debug=0x100 alcid=29 igfxonln=1 brcmfx-country=#a darkwake=1 swd_panic=1 -noDC9 revpatch=sbvmm -igfxblt -igfxbls igfxrpsc=1 gfxrst=1</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 				<key>prev-lang:kbd</key>
