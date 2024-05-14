@@ -20,7 +20,7 @@ My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you
 | Ethernet | Realtek |
 | Audio | Realtek ALC225 (Layout 30) |
 | OS | macOS Sonoma 14.2.1 + Windows 11 23H2 |
-| OpenCore | v0.9.9 |
+| OpenCore | v1.0.0 |
 
 ## What Works?
 - All USB Ports including Type-C
