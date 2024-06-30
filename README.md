@@ -1,12 +1,14 @@
 # Nitro5-2018_AN515-52_OpenCore
-My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you are re-using.
+My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you are re-using.<br>
+More about the hackintosh : [Notes](https://hackbook.simple.ink/) & [Setup](https://sameerasw.com/macos)
 
 ```diff
 - Update: Sold my Nitro 5 recently for an actual macBook upgrade so this will no longer be updated.
 + It was fun <3
 ```
-![image](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/c68c9a17-360e-4220-8952-0997bcd89047)
+![image](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/eb8dd4f7-21da-4069-99b8-48beec41e414)
 
+![image](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/88e07046-f1b0-479a-8f08-95abd719b2d5)
 
 ## Specs:
 | Component      | Description |
@@ -55,6 +57,8 @@ My macOS Sonoma OpenCore EFI files and some others. Change SMBIOS serials if you
 
 ## How to do it?
 I have no idea. Tried for weeks and almost gave up, but finally figured out that it was the NVRAM that I didn't reset was causing boot issues for the OpenCore installer. It was done thanks to the mentioned guides, repos and personal support. This is my first hack build. Updated OC and all the kext files to their latest versions. Only problem is that my external audio sometimes add a hum sound when using 3.5mm port but since I use an USB audio adapter, it is ignored.
+
+![image](https://github.com/sameerasw/Nitro5-2018_AN515-52_OpenCore/assets/68902530/872a4242-e48e-473d-b8e1-7c268accb958)
 
 ## Credits and ref
 - [Thread on tonymacx86.com](https://www.tonymacx86.com/threads/guide-oc-monterey-acer-nitro-5-an515-52-core-i7-8750h-samsung-1tb-960-evo-pcie-nvme.319629/)
